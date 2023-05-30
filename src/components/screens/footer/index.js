@@ -6,19 +6,19 @@ const ProductFooter = () => {
   return (
     <>
       {/* Remove the container if you want to extend the Footer to full width. */}
-      <div class="container my-5">
-        Footer
+      <div class="container my-5 bg-dark">
+
         <footer
           class="text-center text-lg-start text-white"
-          style="background-color: #45526e"
+        // style="background-color: #45526e"
         >
-        
+
           <div class="container p-4 pb-0">
-           
+
             <section class="">
-             
+
               <div class="row">
-                
+
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                   <h6 class="text-uppercase mb-4 font-weight-bold">
                     Company name
@@ -29,9 +29,9 @@ const ProductFooter = () => {
                     elit.
                   </p>
                 </div>
-              
+
                 <hr class="w-100 clearfix d-md-none" />
-               
+
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
                   <p>
@@ -47,9 +47,9 @@ const ProductFooter = () => {
                     <a class="text-white">Bootstrap Angular</a>
                   </p>
                 </div>
-              
+
                 <hr class="w-100 clearfix d-md-none" />
-               
+
                 <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                   <h6 class="text-uppercase mb-4 font-weight-bold">
                     Useful links
@@ -67,9 +67,9 @@ const ProductFooter = () => {
                     <a class="text-white">Help</a>
                   </p>
                 </div>
-              
+
                 <hr class="w-100 clearfix d-md-none" />
-              
+
                 <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                   <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
                   <p>
@@ -87,23 +87,19 @@ const ProductFooter = () => {
                 </div>
               </div>
             </section>
-          
+
             <hr class="my-3" />
-          
+
             <section class="p-3 pt-0">
               <div class="row d-flex align-items-center">
-              
                 <div class="col-md-7 col-lg-8 text-center text-md-start">
-                  Copyright
                   <div class="p-3">
-                    © 2020 Copyright:
                     <a class="text-white" href="https://mdbootstrap.com/">
-                      MDBootstrap.com
+                      Copyright © 2020 Copyright: MDBootstrap.com
                     </a>
                   </div>
-                  Copyright
                 </div>
-               
+
                 <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
                   Facebook
                   <a
@@ -134,16 +130,16 @@ const ProductFooter = () => {
                     <i class="fab fa-instagram"></i>
                   </a>
                 </div>
-              
+
               </div>
             </section>
-           
+
           </div>
-       
+
         </footer>
-        
+
       </div>
-     
+
     </>
   );
 };
