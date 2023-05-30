@@ -1,0 +1,12 @@
+.products-button{
+    border: none;
+    padding: 8px 30px;
+    color: #fff;
+    background: #34016a ;
+    border: none;
+    border-radius: 50px;
+}
+
+.products-button:hover{
+   background: #748c0a;
+}
