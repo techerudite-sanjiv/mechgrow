@@ -1,3 +1,18 @@
 .products-box{
     margin:  auto 5%;
 }
+.products-header p{
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+}
+.horizontal_line{
+    height: 5px;
+    background: #190b4e;
+    width: 25%;
+    border-radius: 50px;
+    margin: auto;
+}
