@@ -7,12 +7,13 @@ import { productList } from "./productArray";
 const Products = () => {
   return (
     <>
-      <div className={cn(styles["products-box"])}>
+      <div className={cn(styles["products-box"],"my-5")}>
         <div className={cn(styles["products-header"])}>
           <p>our products</p>
+          <div className={cn(styles["horizontal_line"],"mb-3")}></div>
         </div>
 
-        <div className={cn(styles["products-header"])}>
+        <div className={cn(styles["products-content"])}>
           <div class="row pb-5 mb-4">
             {productList.map((item)=>{
               return(
