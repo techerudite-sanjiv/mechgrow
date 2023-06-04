@@ -16,9 +16,7 @@ import Contact from './components/contact';
 function App() {
   return (
   <>
-    {/* <div className="app">
-     <Dashboard/>
-    </div> */}
+   
 
 <Router>
 <Routes>
