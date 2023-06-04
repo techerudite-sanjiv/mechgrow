@@ -16,7 +16,7 @@ const Dashboard = () => {
         <Slider/>
         <Products/>
         <BestSelling/>
-        <Contact/>
+        <Contact show={false}/>
         <ProductFooter/>
       
     </div>

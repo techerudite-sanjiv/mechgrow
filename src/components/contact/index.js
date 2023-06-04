@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../screens/navbar";
 import ProductFooter from "../screens/footer";
 
-const Contact = () => {
+const Contact = ({show = true}) => {
   const data = {
     name: "",
     phone: "",
@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <>
-      <Navbar/>
+      {show && <Navbar/>}
       <div className={cn(styles["contact"],)}>
         <div className={cn(styles["contact-container"],"py-5")}>
           <h2 className={cn(styles["contact-heading"],"")}>Get In touch</h2>
@@ -97,7 +97,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <ProductFooter/>
+     {show && <ProductFooter/>}
     </>
   );
 };
