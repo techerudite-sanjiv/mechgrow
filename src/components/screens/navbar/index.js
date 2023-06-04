@@ -3,8 +3,11 @@ import './navbar.module.css'
 import cn from "classnames";
 import styles from "./navbar.module.css";
 import mechgrow_logo from "../../images/MGI_LOGO.png"
+import { useNavigate } from 'react-router';
+import { aboutUsRoutePattern, indexPattern } from '../../../routes';
 
 const Navbar = () => {
+    const navigate = useNavigate();
     return (
         <div>
             <nav className={cn(styles["navbar-box"],"navbar navbar-expand-lg  m-0 p-0")}>
@@ -15,11 +18,16 @@ const Navbar = () => {
                     </button>
                     <div  className={cn(styles['right_menu_box'],"collapse navbar-collapse flex-row-reverse")} id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
+                            <li class="nav-item" onClick={()=>{ navigate(indexPattern)}}>
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
+<<<<<<< HEAD
                             <li class="nav-item">
                                 <a class="nav-link active" href="#">About Us</a>
+=======
+                            <li class="nav-item" onClick={()=>{ navigate(aboutUsRoutePattern)}} >
+                                <a class="nav-link active" href="#">About</a>
+>>>>>>> a0bacba (updates)
                             </li>
                            
                             <li class="nav-item">
