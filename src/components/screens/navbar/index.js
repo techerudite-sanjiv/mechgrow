@@ -4,12 +4,9 @@ import cn from "classnames";
 import styles from "./navbar.module.css";
 import mechgrow_logo from "../../images/MGI_LOGO.png";
 import { useNavigate } from 'react-router';
-import { aboutUsRoutePattern, indexPattern } from '../../../routes';
-import { useNavigate } from 'react-router';
 import { aboutUsRoutePattern, indexPattern, productListRoutePattern } from '../../../routes';
 
 const Navbar = () => {
-    const navigate = useNavigate();
     const navigate = useNavigate();
     return (
         <div>

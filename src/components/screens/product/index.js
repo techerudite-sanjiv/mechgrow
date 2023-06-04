@@ -4,14 +4,10 @@ import styles from "./products.module.css";
 import CustomButton from "../../button";
 import { productList } from "./productArray";
 import { useNavigate } from "react-router";
-import { getProductDetailRoute, productDetailRoutePattern } from "../../../routes";
 import ProductItem from "./productItem";
-import { useNavigate } from "react-router";
 import { getProductDetailRoute, productDetailRoutePattern } from "../../../routes";
 
 const Products = () => {
-
-  const navigate = useNavigate()
 
   const navigate = useNavigate()
   return (
