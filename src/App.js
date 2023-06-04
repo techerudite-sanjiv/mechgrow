@@ -8,10 +8,11 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import { aboutUsRoutePattern, indexPattern, productDetailRoutePattern, productListRoutePattern } from './routes';
+import { aboutUsRoutePattern, contactUsRoutePattern, indexPattern, productDetailRoutePattern, productListRoutePattern } from './routes';
 import ProductDetail from './components/screens/productDetail';
 import About from './components/screens/about';
 import AllProducts from './components/screens/product/allProducts';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -42,6 +43,12 @@ function App() {
         <About />
       }
   />
+  <Route
+      path={contactUsRoutePattern}
+      element={
+        <Contact />
+      }
+    />
 
   <Route
       path={productListRoutePattern}

@@ -2,7 +2,6 @@
 .navbar-box {
   height: 100px;
   background: #ffffff;
- 
 }
 .web_logo {
   width: 150px;
@@ -18,7 +17,6 @@
 .right_menu_box ul li a {
   font-size: 17px;
   font-weight:900;
-
   font-family: "Poppins", sans-serif;
 }
 .right_menu_box ul li a:hover {

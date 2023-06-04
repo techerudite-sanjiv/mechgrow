@@ -1,6 +1,8 @@
 import cn from "classnames";
 import styles from "./contact.module.css";
 import React, { useState, useEffect } from "react";
+import Navbar from "../screens/navbar";
+import ProductFooter from "../screens/footer";
 
 const Contact = () => {
   const data = {
@@ -33,9 +35,10 @@ const Contact = () => {
 
   return (
     <>
-      <div id="contact">
-        <div className={cn(styles["contact-container"])}>
-          <h2 className={cn(styles["contact-heading"])}>Get In touch</h2>
+      <Navbar/>
+      <div className={cn(styles["contact"],)}>
+        <div className={cn(styles["contact-container"],"py-5")}>
+          <h2 className={cn(styles["contact-heading"],"")}>Get In touch</h2>
           <div class="container">
             <form>
               <div class="row">
@@ -94,6 +97,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <ProductFooter/>
     </>
   );
 };

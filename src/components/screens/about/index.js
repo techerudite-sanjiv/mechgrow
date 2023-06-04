@@ -2,7 +2,7 @@ import ProductFooter from "../footer"
 import Navbar from "../navbar"
 import styles from "./about.module.css"
 import cn from "classnames";
-import aboutImage from "../../images/industry.jpg"
+import aboutImage from "../../images/ware1.jpg"
 
 export default function About(){
     return(
@@ -10,7 +10,7 @@ export default function About(){
             <Navbar/>
                 <div className={cn(styles['about-container'])} >
                     <div className={cn(styles['about-image-banner'])}>
-                        <img src={aboutImage} style={{height: "520px"}} class="w-100 img-fluid d-block mx-auto"/>
+                        <img src={aboutImage} style={{height: "600px"}} class="w-100 img-fluid d-block mx-auto"/>
                     </div>
                     <div className={cn(styles['about-content'],"py-5 text-center justify-content-center row gap-2")}>
                         <div  className={cn(styles['who-container'],"col-lg-6")}>
