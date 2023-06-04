@@ -19,21 +19,16 @@ const Navbar = () => {
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">About</a>
+                                <a class="nav-link active" href="#">About Us</a>
                             </li>
                            
-                            <li class="nav-item dropdown">
-                                <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                   Product
-                                </a>
-                                <ul className={cn(styles['dropdown_box'],"dropdown-menu")}>
-                                    <li><a class="dropdown-item" href="#">Categories1</a></li>
-                                    <li><a class="dropdown-item" href="#">Categories2</a></li>
-                                    <li><a class="dropdown-item" href="#">Categories3</a></li>
-                                </ul>
-                            </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">Contact</a>
+                                <a class="nav-link active" href="#">Product</a>
+                            </li>
+                           
+                           
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact Us</a>
                             </li>
                         </ul>
                     </div>
