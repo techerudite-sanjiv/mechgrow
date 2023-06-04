@@ -25,9 +25,9 @@ const BestSelling = () => {
 
   return (
     <div>
-      <div className={cn(styles["best-selling"])}>
-        <div class="row p-0 mb-0">
-          <p>Best Selling Products</p>
+      <div className={cn(styles["best-selling"],"mx-5 mb-5")}>
+        <div class="row p-0">
+          <p class="mb-4">Best Selling Products</p>
           {best_selling.map((item) => {
             return (
               <div class="col-lg-3 col-md-6">
