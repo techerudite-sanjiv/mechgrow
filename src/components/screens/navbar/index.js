@@ -12,7 +12,7 @@ const Navbar = () => {
         <div>
             <nav className={cn(styles["navbar-box"],"navbar navbar-expand-lg  m-0 p-0")}>
                 <div class="container-fluid">
-                    <img src={mechgrow_logo} alt="" className={cn(styles['web_logo'])} />
+                    <img onClick={()=>{navigate(indexPattern)}} src={mechgrow_logo} alt="" className={cn(styles['web_logo'])} />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
