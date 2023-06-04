@@ -5,6 +5,8 @@ import styles from "./dashboard.module.css";
 import Slider from '../carousel/Slider';
 import Products from '../product';
 import ProductFooter from '../footer';
+import BestSelling from '../../bestSelling';
+import Contact from '../../contact';
 
 const Dashboard = () => {
   return (
@@ -13,7 +15,10 @@ const Dashboard = () => {
         <Navbar/>
         <Slider/>
         <Products/>
+        <BestSelling/>
+        <Contact/>
         <ProductFooter/>
+      
     </div>
 
     </>
