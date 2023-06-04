@@ -12,6 +12,11 @@ export const getAboutUsRoute = () => {
   return generatePath(aboutUsRoutePattern);
 };
 
+export const contactUsRoutePattern = "/contact-us";
+export const getContactUsRoute = () => {
+  return generatePath(contactUsRoutePattern);
+};
+
 export const productDetailRoutePattern = "/:slug/detail";
 
 export const getProductDetailRoute = (slug) => {

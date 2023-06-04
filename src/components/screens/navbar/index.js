@@ -4,7 +4,7 @@ import cn from "classnames";
 import styles from "./navbar.module.css";
 import mechgrow_logo from "../../images/MGI_LOGO.png"
 import { useNavigate } from 'react-router';
-import { aboutUsRoutePattern, indexPattern } from '../../../routes';
+import { aboutUsRoutePattern, contactUsRoutePattern, indexPattern } from '../../../routes';
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -30,7 +30,7 @@ const Navbar = () => {
                             </li>
                            
                            
-                            <li class="nav-item">
+                            <li class="nav-item" onClick={()=>{ navigate(contactUsRoutePattern)}} >
                                 <a class="nav-link active" href="#">Contact Us</a>
                             </li>
                         </ul>
