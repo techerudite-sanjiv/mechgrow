@@ -12,6 +12,11 @@ export const getAboutUsRoute = () => {
   return generatePath(aboutUsRoutePattern);
 };
 
+export const productListRoutePattern = "/product-list";
+export const productListRoute = () => {
+  return generatePath(productListRoutePattern);
+};
+
 export const productDetailRoutePattern = "/:slug/detail";
 
 export const getProductDetailRoute = (slug) => {

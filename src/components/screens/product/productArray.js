@@ -6,22 +6,62 @@ import image5 from "../../images/image6.avif"
 
 export const productList=[
     {
-        productTitle:"ProductName1",
+        productTitle:"Product one",
         imageUrl:image5,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
     {
-        productTitle:"ProductName2",
+        productTitle:"Product two",
         imageUrl:image1,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
     {
-        productTitle:"ProductName3",
+        productTitle:"Product three",
         imageUrl:image3,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
     {
-        productTitle:"ProductName3",
+        productTitle:"Product four",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product five",
+        imageUrl:image2,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product six",
+        imageUrl:image1,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product seven",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product eight",
+        imageUrl:image2,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product nine",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product ten",
+        imageUrl:image1,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product eleven",
+        imageUrl:image5,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Product twelwe",
         imageUrl:image4,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
