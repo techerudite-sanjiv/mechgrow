@@ -1,0 +1,25 @@
+.social_links a {
+    margin: 0 10px;
+    /* padding: 8px 12px; */
+    border-radius: 5px;
+    /* background: #fff; */
+}
+.footer_box{
+    background: #000000;
+}
+
+/* .social_links a:first-child {
+    background: blue;
+}
+
+.social_links a:nth-child(2) {
+    background: #2525ff;
+}
+
+.social_links a:nth-child(3) {
+    background: #f22626;
+}
+
+.social_links a:nth-child(4) {
+    background: #ff006a;
+} */

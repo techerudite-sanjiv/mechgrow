@@ -32,7 +32,7 @@ const Slider = () => {
               src="https://images.unsplash.com/photo-1581093803931-46e730e7622e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               class="d-block w-100"
               alt="..."
-              height={"600px"}
+              height={"500px"}
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
@@ -46,7 +46,7 @@ const Slider = () => {
               src="https://images.unsplash.com/photo-1581093803931-46e730e7622e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               class="d-block w-100"
               alt="..."
-              height={"600px"}
+              height={"500px"}
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
@@ -60,7 +60,7 @@ const Slider = () => {
               src="https://images.unsplash.com/photo-1581093803931-46e730e7622e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
               class="d-block w-100"
               alt="..."
-              height={"600px"}
+              height={"500px"}
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
