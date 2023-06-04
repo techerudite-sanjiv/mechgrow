@@ -11,6 +11,17 @@ import {
 import { aboutUsRoutePattern, indexPattern, productDetailRoutePattern } from './routes';
 import ProductDetail from './components/screens/productDetail';
 import About from './components/screens/about';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
+import { aboutUsRoutePattern, indexPattern, productDetailRoutePattern, productListRoutePattern } from './routes';
+import ProductDetail from './components/screens/productDetail';
+import About from './components/screens/about';
+import AllProducts from './components/screens/product/allProducts';
 
 function App() {
   return (
@@ -44,6 +55,44 @@ function App() {
         <About />
       }
     />
+
+
+  </Routes>
+  </Router>
+</> */}
+
+<Router>
+<Routes>
+  <Route
+    exact
+    path={indexPattern}
+    element={
+      <Dashboard/>
+    }
+  />
+
+
+
+  <Route
+    path={productDetailRoutePattern}
+    element={
+      <ProductDetail />
+    }
+  />
+
+  <Route
+      path={aboutUsRoutePattern}
+      element={
+        <About />
+      }
+  />
+
+  <Route
+      path={productListRoutePattern}
+      element={
+        <AllProducts />
+      }
+  />
 
 
   </Routes>

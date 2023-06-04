@@ -5,8 +5,11 @@ import styles from "./navbar.module.css";
 import mechgrow_logo from "../../images/MGI_LOGO.png";
 import { useNavigate } from 'react-router';
 import { aboutUsRoutePattern, indexPattern } from '../../../routes';
+import { useNavigate } from 'react-router';
+import { aboutUsRoutePattern, indexPattern, productListRoutePattern } from '../../../routes';
 
 const Navbar = () => {
+    const navigate = useNavigate();
     const navigate = useNavigate();
     return (
         <div>
@@ -25,8 +28,15 @@ const Navbar = () => {
                                 <a class="nav-link active" href="#">About</a>
                             </li>
                            
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Product</a>
+                            <li class="nav-item dropdown">
+                                <a onClick={()=>{navigate(productListRoutePattern)}} class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   Product
+                                </a>
+                                <ul className={cn(styles['dropdown_box'],"dropdown-menu")}>
+                                    <li><a class="dropdown-item" href="#">Categories1</a></li>
+                                    <li><a class="dropdown-item" href="#">Categories2</a></li>
+                                    <li><a class="dropdown-item" href="#">Categories3</a></li>
+                                </ul>
                             </li>
                            
                            
