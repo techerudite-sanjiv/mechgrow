@@ -6,23 +6,43 @@ import image5 from "../../images/image6.avif"
 
 export const productList=[
     {
-        productTitle:"ProductName1",
+        productTitle:"ESD Apron",
         imageUrl:image5,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
     {
-        productTitle:"ProductName2",
+        productTitle:"ESD Cap",
         imageUrl:image1,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
     {
-        productTitle:"ProductName3",
+        productTitle:"ESD Slippers",
         imageUrl:image3,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
-    {
-        productTitle:"ProductName3",
-        imageUrl:image4,
-        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
-    },
+    // {
+    //     productTitle:"Common Grounding Cord",
+    //     imageUrl:image4,
+    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    // },
+    // {
+    //     productTitle:"ESD Curtain Roll",
+    //     imageUrl:image4,
+    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    // },
+    // {
+    //     productTitle:"ESD Wrist Strap",
+    //     imageUrl:image4,
+    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    // },
+    // {
+    //     productTitle:"Bouffant Cap",
+    //     imageUrl:image4,
+    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    // },
+    // {
+    //     productTitle:"ESD Brush",
+    //     imageUrl:image4,
+    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    // },
 ]
