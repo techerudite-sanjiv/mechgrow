@@ -42,11 +42,11 @@ const BestSelling = () => {
   return (
     <div>
       <div className={cn(styles["best-selling"])}>
-        <div class="row p-0 mb-0">
+        <div className="row p-0 mb-0">
           <p>Best Selling Products</p>
           {best_selling.map((item) => {
             return (
-              <div class="col-lg-3 col-md-6 mb-4">
+              <div className="col-lg-3 col-md-6 mb-4" key={item.image}>
                 <div className={cn(styles["card_content"])}>
                   <img src={item.image} />
                 </div>

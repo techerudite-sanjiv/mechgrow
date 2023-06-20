@@ -1,0 +1,20 @@
+.home_screen{
+padding: 50px 0;
+}
+.teaser_left{
+   padding: 120px 0 0 70px;
+    text-align: center;
+}
+.teaser_left p:first-child{
+ font-size: 35px;
+ font-weight: 700;
+ color: #711a79;
+}
+.teaser_left p:nth-child(2){
+ font-size: 20px;
+ color: #000000;
+}
+
+.teaser_right img{
+    width: 100px;
+}

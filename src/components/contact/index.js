@@ -1,8 +1,9 @@
 import cn from "classnames";
-import styles from "./contact.module.css";
-import React, { useState, useEffect } from "react";
 import Navbar from "../screens/navbar";
+import styles from "./contact.module.css";
 import ProductFooter from "../screens/footer";
+import React, { useState, useEffect } from "react";
+
 
 const Contact = ({show = true}) => {
   const data = {
@@ -39,11 +40,11 @@ const Contact = ({show = true}) => {
       <div className={cn(styles["contact"],)}>
         <div className={cn(styles["contact-container"],"py-5")}>
           <h2 className={cn(styles["contact-heading"],"")}>Get In touch</h2>
-          <div class="container">
+          <div className="container">
             <form>
-              <div class="row">
-                <div class="col-12">
-                  <label for="fname">Full Name</label>
+              <div className="row">
+                <div className="col-12">
+                  <label htmlFor="fname">Full Name</label>
                   <input
                     type="text"
                     id="fname"
@@ -52,9 +53,9 @@ const Contact = ({show = true}) => {
                   />
                 </div>
               </div>
-              <div class="row">
-                <div class="col-12">
-                  <label for="email">Email</label>
+              <div className="row">
+                <div className="col-12">
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     id="email"
@@ -63,9 +64,9 @@ const Contact = ({show = true}) => {
                   />
                 </div>
               </div>
-              <div class="row">
-                <div class="col-12">
-                  <label for="email">Phone</label>
+              <div className="row">
+                <div className="col-12">
+                  <label htmlFor="email">Phone</label>
                   <input
                     type="phone"
                     id="phone"
@@ -75,9 +76,9 @@ const Contact = ({show = true}) => {
                 </div>
               </div>
               
-              <div class="row">
-                <div class="col-12">
-                  <label for="subject">Message</label>
+              <div className="row">
+                <div className="col-12">
+                  <label htmlFor="subject">Message</label>
                   <textarea
                     id="subject"
                     name="subject"
@@ -87,8 +88,8 @@ const Contact = ({show = true}) => {
                 </div>
               </div>
               <br />
-              <div class="row">
-                <div class="col-12">
+              <div className="row">
+                <div className="col-12">
                  <button className={cn(styles["contact-button"])}>Submit</button>
                 </div>
               </div>

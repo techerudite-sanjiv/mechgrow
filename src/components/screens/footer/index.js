@@ -71,7 +71,7 @@ const ProductFooter = () => {
                   Noida,Uttar Pradesh
                 </p>
                 <p>
-                  <i className="fas fa-envelope mr-3"></i>{" "}
+                  <i className="fas fa-envelope mr-3"></i>
                   contact@MechgrowIndia.com
                 </p>
                 <p>
@@ -88,7 +88,6 @@ const ProductFooter = () => {
                   <div className="p-3">
                     <a
                       className="text-white text-decoration-none"
-                      href="https://mdbootstrap.com/"
                     >
                       Copyright © 2020 MechgrowIndia.com
                     </a>
@@ -102,18 +101,18 @@ const ProductFooter = () => {
                   )}
                 >
                   <a role="button">
-                    <i class="fa-brands fa-facebook fa-xl"></i>
+                    <i className="fa-brands fa-facebook fa-xl"></i>
                   </a>
 
                   <a role="button">
-                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i className="fa-brands fa-twitter fa-xl"></i>
                   </a>
 
                   <a role="button">
-                    <i class="fa-brands fa-google fa-xl"></i>
+                    <i className="fa-brands fa-google fa-xl"></i>
                   </a>
                   <a role="button">
-                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <i className="fa-brands fa-instagram fa-xl"></i>
                   </a>
                 </div>
               </div>

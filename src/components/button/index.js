@@ -3,11 +3,11 @@ import cn from "classnames";
 import styles from './customButton.css'
 import { Button } from 'reactstrap'
 
-const CustomButton = ({label,onClick}) => {
+const CustomButton = ({label,onClick,style,square}) => {
   return (
     <>
          <div>
-            <button onClick={onClick} className={"products-button"}>{label}</button>
+            <button onClick={onClick} className={square?"products-button-square":"products-button"}  style={style}>{label}</button>
          </div>
     </>
   )

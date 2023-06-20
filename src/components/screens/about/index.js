@@ -10,12 +10,12 @@ export default function About(){
             <Navbar/>
                 <div className={cn(styles['about-container'])} >
                     <div className={cn(styles['about-image-banner'])}>
-                        <img src={aboutImage} style={{height: "600px"}} class="w-100 img-fluid d-block mx-auto"/>
+                        <img src={aboutImage} style={{height: "600px"}} className="w-100 img-fluid d-block mx-auto"/>
                     </div>
                     <div className={cn(styles['about-content'],"py-5 text-center justify-content-center row gap-2")}>
                         <div  className={cn(styles['who-container'],"col-lg-6")}>
-                            <h1 class="mb-4">Who are we ?</h1>
-                            <p class="px-5 mb-5">
+                            <h1 className="mb-4">Who are we ?</h1>
+                            <p className="px-5 mb-5">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                 when an unknown printer took a galley of type and scrambled it to make a type 
@@ -25,8 +25,8 @@ export default function About(){
                                 and more recently with desktop publishing software like Aldus PageMaker including 
                                 versions of Lorem Ipsum.
                             </p>
-                            <h1 class="mb-4">What do we do ?</h1>
-                            <p class="px-5">
+                            <h1 className="mb-4">What do we do ?</h1>
+                            <p className="px-5">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
                                 when an unknown printer took a galley of type and scrambled it to make a type 
@@ -38,8 +38,8 @@ export default function About(){
                             </p>
                         </div>
                         <div className={cn(styles['goal-container'],"col-lg-5")}>
-                            <h1 class="text-center">Company Goals</h1>
-                            <ul class="mt-4">
+                            <h1 className="text-center">Company Goals</h1>
+                            <ul className="mt-4">
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
                                 <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
