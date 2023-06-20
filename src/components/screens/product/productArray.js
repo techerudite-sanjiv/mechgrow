@@ -20,29 +20,49 @@ export const productList=[
         imageUrl:image3,
         desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
     },
-    // {
-    //     productTitle:"Common Grounding Cord",
-    //     imageUrl:image4,
-    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
-    // },
-    // {
-    //     productTitle:"ESD Curtain Roll",
-    //     imageUrl:image4,
-    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
-    // },
-    // {
-    //     productTitle:"ESD Wrist Strap",
-    //     imageUrl:image4,
-    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
-    // },
-    // {
-    //     productTitle:"Bouffant Cap",
-    //     imageUrl:image4,
-    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
-    // },
-    // {
-    //     productTitle:"ESD Brush",
-    //     imageUrl:image4,
-    //     desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
-    // },
+    {
+        productTitle:"Common Grounding Cord",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Curtain Roll",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Wrist Strap",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"Bouffant Cap",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Brush",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Brush",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Brush",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Brush",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
+    {
+        productTitle:"ESD Brush",
+        imageUrl:image4,
+        desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ipsum laudantium qui ad porro, hic sunt id"
+    },
 ]

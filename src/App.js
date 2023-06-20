@@ -8,9 +8,10 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import { aboutUsRoutePattern, contactUsRoutePattern, indexPattern, productDetailRoutePattern } from './routes';
+import { aboutUsRoutePattern, contactUsRoutePattern, indexPattern, productDetailRoutePattern, productListRoutePattern } from './routes';
 import ProductDetail from './components/screens/productDetail';
 import About from './components/screens/about';
+import AllProducts from './components/screens/product/allProducts';
 import Contact from './components/contact';
 
 function App() {
@@ -29,26 +30,38 @@ function App() {
   />
 
 
-
   <Route
     path={productDetailRoutePattern}
     element={
       <ProductDetail />
     }
   />
+  <Route
+    path={productDetailRoutePattern}
+    element={
+      <ProductDetail />
+    }
+  />
+    <Route
+      path={contactUsRoutePattern}
+      element={
+        <Contact />
+      }
+    />
 
   <Route
       path={aboutUsRoutePattern}
       element={
         <About />
       }
-    />
+  />
+
   <Route
-      path={contactUsRoutePattern}
+      path={productListRoutePattern}
       element={
-        <Contact />
+        <AllProducts />
       }
-    />
+  />
 
 
   </Routes>
