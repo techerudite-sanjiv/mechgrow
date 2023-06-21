@@ -12,5 +12,5 @@ const CustomButton = ({label,onClick,style,square}) => {
     </>
   )
 }
-
+  
 export default CustomButton
