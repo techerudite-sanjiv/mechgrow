@@ -3,7 +3,7 @@ import Navbar from "../navbar";
 import ProductFooter from "../footer";
 import CustomButton from "../../button";
 import { useLocation } from "react-router";
-import image4 from "../../images/image4.jpg"
+import image4 from "../../images/esd_brush.webp"
 import styles from "./product-detail.module.css";
 
 

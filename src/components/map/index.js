@@ -9,7 +9,7 @@ const GoogleMap = () => {
             width="100%"
             height="400"
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=E-199 delta-1, E199, 4th Cross St, Block E, Delta I, Greater Noida, Uttar Pradesh 201308&t=&z=10&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=E138, 4th Cross St, Block E, Delta I, Greater Noida, Uttar Pradesh 201308&t=&z=10&ie=UTF8&iwloc=&output=embed"
             scrolling="no"
           ></iframe>
          
@@ -20,3 +20,5 @@ const GoogleMap = () => {
 };
 
 export default GoogleMap;
+
+

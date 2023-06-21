@@ -24,11 +24,9 @@ export default function ProductItem({ quantity }) {
                   />
                   <hr />
                   <div className="p-2">
-                    <h5>
-                      <a href="#" className="text-dark">
-                        {item.productTitle}
-                      </a>
-                    </h5>
+                    <p className={cn(styles["product_title"])}>
+                      {item.productTitle}
+                    </p>
                     <div className={cn(styles["product-rating"])}>
                       <i className="fas fa-star"></i>
                       <i className="fas fa-star"></i>

@@ -5,6 +5,7 @@
     background: #34016a ;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 .products-button-square{
     border: none;
@@ -12,7 +13,7 @@
     color: #fff;
     background: #34016a ;
     border: none;
-    
+    cursor: pointer;
 }
 
 .products-button:hover{

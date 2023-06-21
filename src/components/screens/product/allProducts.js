@@ -7,7 +7,7 @@ export default function AllProducts(){
         <>
             <Navbar/>
                 <div className="mx-5">
-                    <ProductItem quantity={12}/>
+                    <ProductItem quantity={100}/>
                 </div>
             <ProductFooter/>
         </>
